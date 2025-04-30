@@ -1108,6 +1108,7 @@
             height: 60px;
             margin-bottom: 20px;
             filter: brightness(1.1);
+            max-height: 60px; <!-- P8f06 -->
         }
 
         .footer-logo-text {
@@ -1317,7 +1318,8 @@
                 display: none;
                 position: absolute;
                 top: 100%;
-                left: 0;
+                left: auto; <!-- P8fe1 -->
+                right: 0; <!-- P8fe1 -->
                 width: 100%;
                 padding: 20px;
                 background: rgba(255, 255, 255, 0.95);
@@ -1397,6 +1399,13 @@
             }
         }
     </style>
+    <script type="text/javascript">
+        (function(c,l,a,r,i,t,y){
+            c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+            t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+            y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+        })(window, document, "clarity", "script", "rcek0h5le9");
+    </script> <!-- P3a8e -->
 </head>
 <body>
     <header>
@@ -2006,4 +2015,3 @@
     </script>
 </body>
 </html>
-                    
